@@ -5,8 +5,6 @@
 ## 使用方法：
 1、创建实例对象：InfraredReceiver irReceiver(INFRARED_PIN);//接收参数为红外接收器连接的引脚，一般是D2 
 
-2、波特率设置115200：Serial.begin(115200);
-
-3、调用对象函数（可以保存到字符数组指针）:isKeyNum = irReceiver.getInfraredKey();
+2、调用对象函数（可以保存到字符数组指针）:isKeyNum = irReceiver.getInfraredKey();
 
 （其他参照代码样例）
