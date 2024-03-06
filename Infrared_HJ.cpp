@@ -25,7 +25,6 @@ char* InfraredReceiver::getInfraredKey() {
         delayMicroseconds(10);
         pulseTime--;
       }
-      Serial.println();
       /*----------------------------------------------------------------------
         *嵌套for循环，第一个i<4,代表重复获取4个码，用户码、用户反码、数据码、数据反码；
         *用户码和用户反码默认0和255，所以得到的十六进制00FF；
